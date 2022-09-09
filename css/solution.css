@@ -12,3 +12,11 @@
     background: red;
     width: 100%;
 }
+
+.ex-3-square {
+    transition: 3s;
+}
+.ex-3-square:active {
+    background: red;
+    border-radius: 50%;
+}
