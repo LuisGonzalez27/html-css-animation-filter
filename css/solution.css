@@ -79,3 +79,21 @@
         transform: rotate(1turn);
     }
 }
+
+.ex-11-icon:hover {
+    animation: ruota-trequarti;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+@keyframes ruota-trequarti {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
