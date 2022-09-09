@@ -49,3 +49,11 @@
 .ex-7-img:hover {
     filter: grayscale(100%) invert(100%);
 }
+
+.ex-8-img {
+    transition: 2s;
+}
+.ex-8-img:hover {
+    filter: saturate(8) blur(2px);
+    border-radius: 50px;
+}
