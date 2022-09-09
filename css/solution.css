@@ -57,3 +57,12 @@
     filter: saturate(8) blur(2px);
     border-radius: 50px;
 }
+
+.ex-9-img {
+    transition: 2s;
+}
+.ex-9-img:hover {
+    filter: sepia(100%) drop-shadow(5px 5px 20px blue);
+    border-radius: 100px;
+    transform: scale(1.5);
+}
