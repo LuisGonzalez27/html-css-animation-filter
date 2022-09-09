@@ -66,3 +66,16 @@
     border-radius: 100px;
     transform: scale(1.5);
 }
+
+.ex-10-icon {
+    animation-name: ruota;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes ruota{
+    0% {
+        transform: rotate(1turn);
+    }
+}
