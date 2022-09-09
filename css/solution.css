@@ -9,14 +9,19 @@
     transition: 3s;
 }
 .ex-2-square:active {
-    background: red;
     width: 100%;
 }
 
 .ex-3-square {
     transition: 3s;
 }
-.ex-3-square:active {
-    background: red;
+.ex-3-square:hover {
     border-radius: 50%;
+}
+
+.ex-4-square {
+    transition: 3s;
+}
+.ex-4-square:hover {
+   opacity: 0;
 }
